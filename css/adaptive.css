@@ -1,0 +1,18 @@
+@media screen and (max-width: 800px) {
+    html{
+        display: block;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+}
