@@ -2,17 +2,95 @@
     html{
         display: block;
         height: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .one{
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: center;
+        /* flex-wrap: wrap; */
+        align-content: flex-start;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         overflow: hidden;
+    }
+
+    .one1{
+        position: relative;
+        width: 100vw;
+        height: 101.04vw;
+        overflow: hidden;
+    }
+
+    .onehalf1{
+        position: relative;
+        width: 100vw;
+        height: 56.51vw;
+        overflow: hidden;
+    }
+
+    .one2{
+        display: none;
+    }
+
+    .threeh2{
+        display: none;
+    }
+
+    
+
+    .cub5 {
+        position: relative;
+        width: 100vw;
+        height: 78.51vw;
+    }
+
+    .threeh1 {
+        position: relative;
+        width: 100vw;
+        height: 78.51vw;
+    }
+
+    .thumb2 {
+        display: flex;
+        justify-content: space-around;
+        width: 81.12vw;
+        height: 81.12vw;
+        margin-top: 7vw;
+        margin-left: 7.5vw;
+        position: absolute;
+        z-index: 2;
+        /* align-items: center; */
+        align-self: center;
+        flex-wrap: wrap;
+    }
+
+    .images2 {
+        /* display: inline; */
+        /* margin: 12.5vw; */
+        /* margin-bottom: 12.5vw; */
+        /* margin-left: 1vw; */
+        /* margin-right: 1vw; */
+        /* margin-top: 10.4vw; */
+        width: 23.18vw;
+        height: 23.18vw;
+        z-index: 2;
+        transition: 1s;
+        animation: myanimation2 2s infinite;
+    }
+
+    .sqblue {
+        position: absolute;
+        width: 4.69vw;
+        height: 4.69vw;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #0970DF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        animation: glowing2 1300ms alternate-reverse infinite;
     }
 }
